@@ -41,12 +41,13 @@ function setup() {
  	World.add(world, ground);
 
 
-	Engine.update(engine);
-  
+	
 }
 
 
 function draw() {
+	Engine.update(engine);
+  
   rectMode(CENTER);
   background(0);
   packageSprite.x= packageBody.position.x 
